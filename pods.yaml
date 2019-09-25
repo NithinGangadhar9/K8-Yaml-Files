@@ -1,10 +1,10 @@
-apiVersion: v1
+apiVerison: v1
 kind: Pod
-metadata:
-  name: myapp
+metadata: 
+  name: Webserver
   labels:
-    name: myapp
+    app: myapp
 spec:
   containers:
-    - name: myapp
-      image: nginx-
+    - name: nginx-server
+      image: nginx
