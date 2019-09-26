@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: Webserver
+  name: webserver
   labels:
     app: myapp
 spec:
